@@ -1,0 +1,107 @@
+.topimage {
+  object-fit: cover;
+  width: 100%;
+  height : 200px;
+}
+
+@media screen and (min-width: 850px) {
+  body {
+    transition: background-color 1s ease;
+    background: white;
+  }
+
+  .nav {
+    overflow: hidden;
+    background-color: #333;
+    position : sticky;
+    top : 10px;
+    box-shadow: 0px 8px 10px lightslategray;
+    transition: background-color 1s ease;
+  }
+
+  .nav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .nav a:hover {
+    background-color: white;
+    color:#333 ;
+  }
+
+  p {
+    font-size: 17px;
+    padding: 10px 20px;
+    font-family: sans-serif;
+  }
+
+  p:hover {
+    transition: color 1s ease;
+    color: red;
+  }
+
+  li {
+    font-size: 17px;
+    padding: 10px 20px;
+    font-family: sans-serif;
+  }
+
+  li:hover {
+    transition: color 1s ease;
+    color: red;
+  }
+} 
+
+@media screen and (max-width: 850px) {
+  body {
+    transition: background-color 1s ease;
+    background: #464646;
+  }
+
+  .nav {
+    overflow: hidden;
+    background-color: white;
+    position : sticky;
+    top : 10px;
+    box-shadow: 0px 8px 10px lightslategray;
+    transition: background-color 1s ease;
+  }
+
+  .nav a{
+    float: left;
+    color: #333;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .nav a:hover {
+    background-color: #333;
+    color:white;
+  }
+
+  p {
+    transition: color 1s ease;
+    color: white;
+  }
+
+  p:hover {
+    transition: color 1s ease;
+    color: red;
+  }
+
+  li {
+    transition: color 1s ease;
+    color: white;
+  }
+
+  li:hover {
+  transition: color 1s ease;
+  color: red;
+  }
+} 
