@@ -1,0 +1,1 @@
+The Purpose of this project is to use what we learned from CSS and HTML to create a website.
